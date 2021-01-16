@@ -1,0 +1,831 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Api/DhubSolutions.WealthReport.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj",
+        "projectName": "DhubSolutions.Core.Application",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj",
+        "projectName": "DhubSolutions.Core.Domain",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Infrastructure/DhubSolutions.Core.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Infrastructure/DhubSolutions.Core.Infrastructure.csproj",
+        "projectName": "DhubSolutions.Core.Infrastructure",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Infrastructure/DhubSolutions.Core.Infrastructure.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Application/DhubSolutions.Common.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Application/DhubSolutions.Common.Application.csproj",
+        "projectName": "DhubSolutions.Common.Application",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Application/DhubSolutions.Common.Application.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj",
+        "projectName": "DhubSolutions.Common.Domain",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj",
+        "projectName": "Zobel.Reports.Domain",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Reports.Application/DhubSolutions.Reports.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Reports.Application/DhubSolutions.Reports.Application.csproj",
+        "projectName": "DhubSolutions.Reports.Application",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Reports.Application/DhubSolutions.Reports.Application.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Reports.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Api/DhubSolutions.WealthReport.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Api/DhubSolutions.WealthReport.Api.csproj",
+        "projectName": "DhubSolutions.WealthReport.Api",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Api/DhubSolutions.WealthReport.Api.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Application/DhubSolutions.Common.Application.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Application/DhubSolutions.Common.Application.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Reports.Application/DhubSolutions.Reports.Application.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Reports.Application/DhubSolutions.Reports.Application.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Application/DhubSolutions.WealthReport.Application.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Application/DhubSolutions.WealthReport.Application.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Infrastructure/DhubSolutions.WealthReport.Infrastructure.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Infrastructure/DhubSolutions.WealthReport.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[5.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Application/DhubSolutions.WealthReport.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Application/DhubSolutions.WealthReport.Application.csproj",
+        "projectName": "DhubSolutions.WealthReport.Application",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Application/DhubSolutions.WealthReport.Application.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Application/DhubSolutions.Core.Application.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/DhubSolutions.WealthReport.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/DhubSolutions.WealthReport.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/DhubSolutions.WealthReport.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/DhubSolutions.WealthReport.Domain.csproj",
+        "projectName": "DhubSolutions.WealthReport.Domain",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/DhubSolutions.WealthReport.Domain.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Domain/DhubSolutions.Core.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Infrastructure/DhubSolutions.WealthReport.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Infrastructure/DhubSolutions.WealthReport.Infrastructure.csproj",
+        "projectName": "DhubSolutions.WealthReport.Infrastructure",
+        "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Infrastructure/DhubSolutions.WealthReport.Infrastructure.csproj",
+        "packagesPath": "/Users/rubenmonterovazquez/.nuget/packages/",
+        "outputPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rubenmonterovazquez/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Infrastructure/DhubSolutions.Core.Infrastructure.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/Core/DhubSolutions.Core.Infrastructure/DhubSolutions.Core.Infrastructure.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/Core.Common/DhubSolutions.Common.Domain/DhubSolutions.Common.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/Core.Report/DhubSolutions.Report.Domain/DhubSolutions.Reports.Domain.csproj"
+              },
+              "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/DhubSolutions.WealthReport.Domain.csproj": {
+                "projectPath": "/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/Updated 01-01-2021/Zobel.WealthReport Jan-01/DhubSolutions.WealthReport.Domain/DhubSolutions.WealthReport.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

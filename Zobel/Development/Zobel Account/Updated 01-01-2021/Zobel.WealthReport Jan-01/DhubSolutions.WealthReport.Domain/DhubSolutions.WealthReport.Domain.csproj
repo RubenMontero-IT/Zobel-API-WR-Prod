@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latestMajor</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Report\Core.Common\Core\DhubSolutions.Core.Domain\DhubSolutions.Core.Domain.csproj" />
+    <ProjectReference Include="..\Core.Report\Core.Common\DhubSolutions.Common.Domain\DhubSolutions.Common.Domain.csproj" />
+    <ProjectReference Include="..\Core.Report\DhubSolutions.Report.Domain\DhubSolutions.Reports.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

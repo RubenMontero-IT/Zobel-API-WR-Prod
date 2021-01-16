@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Application\**" />
+    <EmbeddedResource Remove="Services\Application\**" />
+    <None Remove="Services\Application\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DhubSolutions.Core.Domain\DhubSolutions.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

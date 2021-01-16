@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DhubSolutions.Report", "DhubSolutions.Report", "{7EA5AEB4-37C2-4EB9-951C-99D7A2F1BB14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DhubSolutions.Core", "DhubSolutions.Core", "{7FC129B8-D330-40F8-A413-49B17511EEC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DhubSolutions.Common", "DhubSolutions.Common", "{4D78A26F-235E-4C8E-A3B0-2CCB0BB07A89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.Core.Domain", "Core.Report\Core.Common\Core\DhubSolutions.Core.Domain\DhubSolutions.Core.Domain.csproj", "{D47A895C-98A0-4BB0-8B6B-9C699438158B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.Core.Infrastructure", "Core.Report\Core.Common\Core\DhubSolutions.Core.Infrastructure\DhubSolutions.Core.Infrastructure.csproj", "{6B8D4359-12AF-4DB7-88D9-6436D81071E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.Core.Application", "Core.Report\Core.Common\Core\DhubSolutions.Core.Application\DhubSolutions.Core.Application.csproj", "{999556CC-E6B0-4A51-9679-58F80F21D486}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.Common.Domain", "Core.Report\Core.Common\DhubSolutions.Common.Domain\DhubSolutions.Common.Domain.csproj", "{E1D89229-C192-466B-94B7-FBCD9E1296EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.Common.Application", "Core.Report\Core.Common\DhubSolutions.Common.Application\DhubSolutions.Common.Application.csproj", "{9215609C-E726-49E9-B154-B2CAD36D9BF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.Reports.Domain", "Core.Report\DhubSolutions.Report.Domain\DhubSolutions.Reports.Domain.csproj", "{2070B147-1CC7-4E35-ACED-57010E2D278E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.Reports.Application", "Core.Report\DhubSolutions.Reports.Application\DhubSolutions.Reports.Application.csproj", "{D1FF9A08-5A2B-402F-B931-D6E1695C72E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.WealthReport.Domain", "DhubSolutions.WealthReport.Domain\DhubSolutions.WealthReport.Domain.csproj", "{575BFF9F-1635-4666-804F-30D3E7EBF513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.WealthReport.Infrastructure", "DhubSolutions.WealthReport.Infrastructure\DhubSolutions.WealthReport.Infrastructure.csproj", "{0E7C3508-A6FF-40F9-94D7-2E5E979FF4BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.WealthReport.Application", "DhubSolutions.WealthReport.Application\DhubSolutions.WealthReport.Application.csproj", "{7B529031-5A55-4E0C-8DAD-7B361A5337AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DhubSolutions.WealthReport.Api", "DhubSolutions.WealthReport.Api\DhubSolutions.WealthReport.Api.csproj", "{6FC05212-5604-4763-9F56-946735BC7336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D47A895C-98A0-4BB0-8B6B-9C699438158B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47A895C-98A0-4BB0-8B6B-9C699438158B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47A895C-98A0-4BB0-8B6B-9C699438158B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47A895C-98A0-4BB0-8B6B-9C699438158B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8D4359-12AF-4DB7-88D9-6436D81071E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8D4359-12AF-4DB7-88D9-6436D81071E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8D4359-12AF-4DB7-88D9-6436D81071E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8D4359-12AF-4DB7-88D9-6436D81071E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999556CC-E6B0-4A51-9679-58F80F21D486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999556CC-E6B0-4A51-9679-58F80F21D486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999556CC-E6B0-4A51-9679-58F80F21D486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999556CC-E6B0-4A51-9679-58F80F21D486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D89229-C192-466B-94B7-FBCD9E1296EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D89229-C192-466B-94B7-FBCD9E1296EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D89229-C192-466B-94B7-FBCD9E1296EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D89229-C192-466B-94B7-FBCD9E1296EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9215609C-E726-49E9-B154-B2CAD36D9BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9215609C-E726-49E9-B154-B2CAD36D9BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9215609C-E726-49E9-B154-B2CAD36D9BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9215609C-E726-49E9-B154-B2CAD36D9BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2070B147-1CC7-4E35-ACED-57010E2D278E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2070B147-1CC7-4E35-ACED-57010E2D278E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2070B147-1CC7-4E35-ACED-57010E2D278E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2070B147-1CC7-4E35-ACED-57010E2D278E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FF9A08-5A2B-402F-B931-D6E1695C72E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FF9A08-5A2B-402F-B931-D6E1695C72E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FF9A08-5A2B-402F-B931-D6E1695C72E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FF9A08-5A2B-402F-B931-D6E1695C72E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575BFF9F-1635-4666-804F-30D3E7EBF513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575BFF9F-1635-4666-804F-30D3E7EBF513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575BFF9F-1635-4666-804F-30D3E7EBF513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575BFF9F-1635-4666-804F-30D3E7EBF513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7C3508-A6FF-40F9-94D7-2E5E979FF4BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7C3508-A6FF-40F9-94D7-2E5E979FF4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7C3508-A6FF-40F9-94D7-2E5E979FF4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7C3508-A6FF-40F9-94D7-2E5E979FF4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B529031-5A55-4E0C-8DAD-7B361A5337AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B529031-5A55-4E0C-8DAD-7B361A5337AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B529031-5A55-4E0C-8DAD-7B361A5337AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B529031-5A55-4E0C-8DAD-7B361A5337AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC05212-5604-4763-9F56-946735BC7336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC05212-5604-4763-9F56-946735BC7336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC05212-5604-4763-9F56-946735BC7336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC05212-5604-4763-9F56-946735BC7336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FC129B8-D330-40F8-A413-49B17511EEC6} = {4D78A26F-235E-4C8E-A3B0-2CCB0BB07A89}
+		{4D78A26F-235E-4C8E-A3B0-2CCB0BB07A89} = {7EA5AEB4-37C2-4EB9-951C-99D7A2F1BB14}
+		{D47A895C-98A0-4BB0-8B6B-9C699438158B} = {7FC129B8-D330-40F8-A413-49B17511EEC6}
+		{6B8D4359-12AF-4DB7-88D9-6436D81071E1} = {7FC129B8-D330-40F8-A413-49B17511EEC6}
+		{999556CC-E6B0-4A51-9679-58F80F21D486} = {7FC129B8-D330-40F8-A413-49B17511EEC6}
+		{E1D89229-C192-466B-94B7-FBCD9E1296EF} = {4D78A26F-235E-4C8E-A3B0-2CCB0BB07A89}
+		{9215609C-E726-49E9-B154-B2CAD36D9BF8} = {4D78A26F-235E-4C8E-A3B0-2CCB0BB07A89}
+		{2070B147-1CC7-4E35-ACED-57010E2D278E} = {7EA5AEB4-37C2-4EB9-951C-99D7A2F1BB14}
+		{D1FF9A08-5A2B-402F-B931-D6E1695C72E8} = {7EA5AEB4-37C2-4EB9-951C-99D7A2F1BB14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8807879B-3E36-430B-BE3F-307D202FDA5C}
+	EndGlobalSection
+EndGlobal

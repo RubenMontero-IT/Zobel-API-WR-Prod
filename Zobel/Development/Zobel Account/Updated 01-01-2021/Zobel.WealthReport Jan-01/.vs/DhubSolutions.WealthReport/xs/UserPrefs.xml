@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{6FC05212-5604-4763-9F56-946735BC7336}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DhubSolutions.WealthReport" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DhubSolutions.WealthReport.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/DIR Version 2 - 02-12-2020/Zobel.WealthReport Dic03/DhubSolutions.WealthReport.Api/Startup.cs" relfile="DhubSolutions.WealthReport.Api/Startup.cs" line="28" column="1" />
+      <Breakpoint file="/Users/rubenmonterovazquez/Desktop/Zobel/Development/Zobel Account/DIR Version 2 - 02-12-2020/Zobel.WealthReport Dic03/DhubSolutions.WealthReport.Api/Startup.cs" relfile="DhubSolutions.WealthReport.Api/Startup.cs" line="143" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

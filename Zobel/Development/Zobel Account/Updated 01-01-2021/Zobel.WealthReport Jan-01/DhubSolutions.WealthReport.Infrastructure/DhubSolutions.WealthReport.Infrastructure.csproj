@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\ProjectManagement\20200410001717_InitMigration.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200410001717_InitMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200410003432_AddingReportEntites.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200410003432_AddingReportEntites.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200421163617_AddingConnectionByOrganization.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200421163617_AddingConnectionByOrganization.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200421165002_AddingConnectionByOrganization.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200421165002_AddingConnectionByOrganization.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200601040507_UpdateElementIndexColumn.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200601040507_UpdateElementIndexColumn.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200601042855_UpdateElementIndexColumn.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200601042855_UpdateElementIndexColumn.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200601043956_UpdateReportElement&amp;ReportTemplateElement.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200601043956_UpdateReportElement&amp;ReportTemplateElement.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200817225205_UpdateReportTemplate.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200817225205_UpdateReportTemplate.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200817230727_UpdateReportTemplate.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200817230727_UpdateReportTemplate.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200817232619_UpdateReportTemplate.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200817232619_UpdateReportTemplate.Designer.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200928181246_UpdateSignedDateColumn.cs" />
+    <Compile Remove="Data\Migrations\ProjectManagement\20200928181246_UpdateSignedDateColumn.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200419223114_InitMigration.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200419223114_InitMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423000606_AddingNewEntities.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423000606_AddingNewEntities.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423040137_UpdateProductEntity.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423040137_UpdateProductEntity.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423165255_UpdateProduct.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423165255_UpdateProduct.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423172415_UpdateProduct.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423172415_UpdateProduct.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423175615_UpdateProduct.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423175615_UpdateProduct.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423184914_UpdateProduct.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200423184914_UpdateProduct.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200424031322_UpdateProduct.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200424031322_UpdateProduct.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200424035022_InitMigration.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200424035022_InitMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200424040423_InitMigration.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200424040423_InitMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200427222127_UpdateFXRate&amp;ProductEntities.cs" />
+    <Compile Remove="Data\Migrations\WealthReport\20200427222127_UpdateFXRate&amp;ProductEntities.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Configurations\Admin\" />
+    <Folder Include="Data\Configurations\Application\" />
+    <Folder Include="Data\Configurations\Base\" />
+    <Folder Include="Data\Configurations\DataUploader\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Report\Core.Common\Core\DhubSolutions.Core.Infrastructure\DhubSolutions.Core.Infrastructure.csproj" />
+    <ProjectReference Include="..\Core.Report\Core.Common\DhubSolutions.Common.Domain\DhubSolutions.Common.Domain.csproj" />
+    <ProjectReference Include="..\Core.Report\DhubSolutions.Report.Domain\DhubSolutions.Reports.Domain.csproj" />
+    <ProjectReference Include="..\DhubSolutions.WealthReport.Domain\DhubSolutions.WealthReport.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

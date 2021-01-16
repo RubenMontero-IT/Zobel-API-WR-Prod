@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latestMajor</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Adapters\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Report\Core.Common\Core\DhubSolutions.Core.Application\DhubSolutions.Core.Application.csproj" />
+    <ProjectReference Include="..\Core.Report\Core.Common\Core\DhubSolutions.Core.Domain\DhubSolutions.Core.Domain.csproj" />
+    <ProjectReference Include="..\Core.Report\Core.Common\DhubSolutions.Common.Domain\DhubSolutions.Common.Domain.csproj" />
+    <ProjectReference Include="..\DhubSolutions.WealthReport.Domain\DhubSolutions.WealthReport.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
